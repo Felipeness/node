@@ -37,7 +37,7 @@ describe('Coverage with source maps', async () => {
       '# a.test.ts     |   37.50 |  53.85 |   100.00 |  100.00 | 8-13',  // part of a bundle
       '# b.test.ts     |   28.57 |  55.56 |   100.00 |  100.00 | 1 7-9', // part of a bundle
       '# index.test.js |   80.00 |  71.43 |    66.67 |  100.00 | 6-7',  // no source map
-      '# stdin.test.ts |  100.00 |  57.14 |   100.00 |  100.00 | 4-6',  // Source map without original file
+      '# stdin.test.ts |    0.00 |  57.14 |   100.00 |  100.00 | 4-6',  // Source map without original file
       '# ------------------------------------------------------------------------',
       '# all files     |   45.00 |  58.33 |    87.50 |  100.00 | ',
       '# ------------------------------------------------------------------------',
